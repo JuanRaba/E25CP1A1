@@ -2,6 +2,13 @@
 
 <h1>Posts</h1>
 
+<%= form_with url: '/posts', method: :get do |search| %>
+  <%= search.label 'Buscar: ' %>
+  <%= search.text_field :search, onKeyUp: "Rails.fire(this.form, 'submit')" %>
+<% end %>
+
+<br>
+
 <%= render 'form', post: @post %>
 
 <table>
