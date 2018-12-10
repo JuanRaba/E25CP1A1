@@ -17,6 +17,8 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 # Use Carrierwave
 gem 'carrierwave'
+# Use Remotipart
+gem 'remotipart'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
